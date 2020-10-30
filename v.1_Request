@@ -1,0 +1,26 @@
+#Pages: 
+	-Main menu #Already do
+	-Publication visualizer (text and gallery) #Alredy do
+	-Login/register
+	-Profile (Edit and view profile)
+	-Publication editor (create, modify, erase)
+	-Categoric work visualizer (Organize and acces to the wanted categories and works)
+
+
+#Characteristics:
+
+Non regiter users:
+	-Watch every publication 
+	-Watch every profile 
+	-Add a anonimus coment to the publications
+	-Create an acount
+
+Registered users: 
+	-Profile (photo, name, description, publications)
+	-Rect to others publucations (like, dislike, comment/made an anonimus comment)
+	-Delete acount 
+	-Create publications
+
+Publications: 
+	-Compose with text and pictures (pictures can be insert along of the work body and has a gallery at the end)
+	-All publication have to be classificated
