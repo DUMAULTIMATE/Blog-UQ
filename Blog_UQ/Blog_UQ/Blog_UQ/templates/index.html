@@ -1,0 +1,182 @@
+{% load static %}
+
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+<title>El Blog de la UQ</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="author" content="Duban RUbiano">
+<meta name="keywords" content="Blog, Universidad, educación">
+<meta name="theme-color" content="#2d572c">
+<link rel="shortcut icon" href="{% static 'img/ico/bloque2.ico' %}">
+
+<link rel="stylesheet"  type="text/css" href= "{% static 'css/style.css' %}">
+
+<link rel="canonical" href="http:LINK DEL SITIO" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:url" content="http:LINK DEL SITIO" />
+<meta property="og:site_name" content="El blog de la UQ" />
+
+
+</head>
+<body>
+	{% include "bar.html" %}
+		<main>
+			<div id="inicio">
+				<div class="hero">
+					<div class="anuncio">
+												<h3><a href="ENLACE AL QUE DIRIJE BANNER DE INICIO">Por un mundo libre de Pirobos</a></h3>
+					</div>	
+					<img src="{% static 'img/indice.jpg' %}" alt="Paro en la UQ">				</div>
+
+				<div class="obras">
+					<section>
+						<h2>Investigación</h2>
+												<figure class="post">
+							<a href="LINK AL QUE DIRIJE EL POST" title="Nombre de la obra">
+								<figcaption class="articuloInfo">
+									<h3>Origenes de Pueblo Paleta</h3>
+									<p class="fecha">
+										18 octubre, 2015									</p>
+									<div class="descripcion">
+									</div>	
+								</figcaption>
+								<div class="imagen">
+									<img src="http://art.nestordominguez.com/wp-content/uploads/2015/01/cueva1-672x538.jpg" alt="DESCRIPCIÓN">								</div>
+							</a>
+						</figure>
+												<figure class="post">
+							<a href="httpLINK" title="Nombre de la obra: El rostro de Gaia | Arte y ecología">
+								<figcaption class="articuloInfo">
+									<h3>El rostro de Gaia | Arte y ecología</h3>
+									<p class="fecha">
+										25 junio, 2014									</p>
+									<div class="descripcion">
+									</div>	
+								</figcaption>
+								<div class="imagen">
+									<img src="http://art.nestordominguez.com/wp-content/uploads/2014/06/gaia1-672x378.jpg" alt="Fotograma del vídeo titulado El rostro de Gaia">								</div>
+							</a>
+						</figure>
+												<figure class="post">
+							<a href="link" title="Nombre de la obra: El origen de la cultura">
+								<figcaption class="articuloInfo">
+									<h3>El origen de la cultura</h3>
+									<p class="fecha">
+										4 abril, 2014									</p>
+									<div class="descripcion">
+									</div>	
+								</figcaption>
+								<div class="imagen">
+									<img src="http://art.nestordominguez.com/wp-content/uploads/2014/04/nestor-origen-del-mundo-672x378.jpg" alt="Imagen del video El origen de la cultura">								</div>
+							</a>
+						</figure>
+												<figure class="post">
+							<a href="LINK" title="Nombre de la obra: Imago, Scientia, Mythos">
+								<figcaption class="articuloInfo">
+									<h3>Imago, Scientia, Mythos</h3>
+									<p class="fecha">
+										4 abril, 2014									</p>
+									<div class="descripcion">
+									</div>	
+								</figcaption>
+								<div class="imagen">
+									<img src="http://art.nestordominguez.com/wp-content/uploads/2014/04/cuadro-672x316.jpg" alt="Imagen de la obra Imago-Scientia-Mythos">								</div>
+							</a>
+						</figure>
+												<figure class="post">
+							<a href="LINK" title="Nombre de la obra: Serie Topologías toroidales">
+								<figcaption class="articuloInfo">
+									<h3>Mundos toroidales</h3>
+									<p class="fecha">
+										4 abril, 2014									</p>
+									<div class="descripcion">
+									</div>	
+								</figcaption>
+								<div class="imagen">
+									<img src="http://art.nestordominguez.com/wp-content/uploads/2014/04/nestor-planeta-alpha-672x448.jpg" alt="Imagen de la obra Planeta Alpha y Luna">								</div>
+							</a>
+						</figure>
+												<figure class="post">
+							<a href="http://art.nestordominguez.com/paisaje-sin-aire/" title="Nombre de la obra: Paisaje sin aire">
+								<figcaption class="articuloInfo">
+									<h3>Un Mundo sin Humanos</h3>
+									<p class="fecha">
+										4 abril, 2014									</p>
+									<div class="descripcion">
+									</div>	
+								</figcaption>
+								<div class="imagen">
+									<img src="http://art.nestordominguez.com/wp-content/uploads/2014/04/nestor-paisaje-sin-aire-672x504.jpg" alt="Imagen del cuadro Paisaje sin aire">								</div>
+							</a>
+						</figure>
+												<div class="verMas"><a href="obras" title="Ir a la sección Obras"><p>ver+</p></a></div>
+					</section>
+				</div>
+
+				<div class="articulos">
+					<section>
+						<h2>Opinión</h2>
+												<div class="post"><a href="LINK" title="TITLE">
+							<div class="articuloInfo">
+								<h3>Gente fastidiosa</h3>
+								<p class="fecha">29 noviembre, 2015</p>
+								<div class="descripcion">
+									<p>Todos los de la uq son re fastidios@s [&hellip;]</p>
+ 
+								</div>
+							</div>
+							           
+						</a></div>
+												<div class="post"><a href="LINK" title="title">
+							<div class="articuloInfo">
+								<h3>Among</h3>
+								<p class="fecha">10 julio, 2015</p>
+								<div class="descripcion">
+									<p>Among vs. Mi semestre&#8230;</p>
+ 
+								</div>
+							</div>
+							           
+						</a></div>
+												<div class="verMas"><a href="LINK" title="TITLE"><p>ver+</p></a></div>
+					</section>
+				</div>
+
+				<div class="noticias">
+					<section>
+						<h2>Literatura</h2>
+												<div class="post"><a href="LINK" title="TITLE">
+							<div class="articuloInfo">
+								<h3>Uribe parak</h3>
+								<p class="fecha">7 abril, 2014</p>
+								<div class="descripcion">
+									<p>Para Quito me voy, Para Quito me vengo[&#8230;]</p>
+ 
+								</div>
+							</div>
+							           
+						</a></div>
+												<div class="post"><a href="LINK" title="TITLE">
+							<div class="articuloInfo">
+								<h3>Ahí suave</h3>
+								<p class="fecha">4 abril, 2014</p>
+								<div class="descripcion">
+									<p>Temáticamente estoy Suave. [&#8230;]</p>
+ 
+								</div>
+							</div>
+							           
+						</a></div>
+												<div class="verMas"><a href="LINK" title="TITLE"><p>ver+</p></a></div>
+					</section>
+				</div>
+
+			</div>
+		</main>
+		<footer>
+	<p>&copy; Duban Rubiano</p>
+</footer>	</div>
+</body>
+</html>
