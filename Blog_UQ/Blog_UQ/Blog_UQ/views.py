@@ -18,3 +18,10 @@ def login(request):
 
 def register(request):  
     return render(request, 'register.html')
+
+def categories(request):  
+    return render(request, 'categories.html')
+
+
+def publicación(request):  
+    return render(request, 'Vista_publicación.html')

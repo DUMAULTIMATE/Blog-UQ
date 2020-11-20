@@ -1,3 +1,4 @@
+{% load static %}
 @charset "utf-8";
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 
@@ -7,7 +8,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url(/root/Descargas/Blog-UQ/img/loogin.png) no-repeat;
+  background: url({% static 'img/loogin.png' %}) no-repeat;
   background-size: cover;
 }
 .login-box{
